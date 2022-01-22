@@ -50,7 +50,7 @@ $password:980723
 
 ##On Remote PC Virtual Machine  
 
-##(Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines)  
+(Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines)  
 
 $ifconfig  
 
@@ -94,10 +94,10 @@ $roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 $export TURTLEBOT3_MODEL=burger  
 
-##(For Teleoperation)  
+(For Teleoperation)  
 
 $roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch  
 
-##(For Navigation)  
+(For Navigation)  
 
 $roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml  
