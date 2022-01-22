@@ -8,9 +8,12 @@ All the packages we
 - 
 $cd catkin_ws/src
 
-$git clone the package you need from the internet
-$cd ~/catkin_ws && catkin_make
-$source ~/catkin_ws/devel/setup.bash
+$git clone the package you need from the internet  
+
+$cd ~/catkin_ws && catkin_make  
+
+$source ~/catkin_ws/devel/setup.bash  
+
 Record Indoor Map with Rplidar
 $roscore
 launch new terminal
