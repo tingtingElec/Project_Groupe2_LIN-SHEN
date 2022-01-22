@@ -1,5 +1,5 @@
 # Project_Groupe2_LIN-SHEN
-Final project-Indoor real-time navigation for robot vehicles  
+Final project-Indoor real-time navigation for robot vehicles 
 All the packages we need during the project
 
 - hector_slam
@@ -47,6 +47,8 @@ $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/m
 
 ##Remote Control TurtleBot3  
 
+Burn the raspberry (ros kinetic version)image into a SD card and insert it into the Raspberry Board.  
+
 $ssh pi@172.20.10.12  
 
 $password:980723  
@@ -61,9 +63,9 @@ $ifconfig
 
 $nano ~/.bashrc  
 
-$export ROS_MASTER_URI=http://172.20.10.3:11311  
+export ROS_MASTER_URI=http://172.20.10.3:11311  
 
-$export ROS_HOSTNAME=172.20.10.3  
+export ROS_HOSTNAME=172.20.10.3  
 
 ##After changing,save and validate  
 
@@ -73,9 +75,9 @@ $source ~/.bashrc
 
 $nano ~/.bashrc  
 
-$export ROS_MASTER_URI=http://172.20.10.3:11311  
+export ROS_MASTER_URI=http://172.20.10.3:11311  
 
-$export ROS_HOSTNAME=172.20.10.12  
+export ROS_HOSTNAME=172.20.10.12  
 
 ##After changing,save and validate  
 
