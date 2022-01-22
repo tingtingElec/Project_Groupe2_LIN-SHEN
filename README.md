@@ -7,7 +7,8 @@ All the packages we
 - rplidar_ros
 - turtlebot3
 - turtlebot3_msgs
-- turtlebot3_simulations
+- turtlebot3_simulations  
+
 $cd catkin_ws/src
 
 $git clone the package you need from the internet  
