@@ -5,7 +5,9 @@ All the packages we
 - hector_slam
 - navigation
 - rplidar_ros
-- 
+- turtlebot3
+- turtlebot3_msgs
+- turtlebot3_simulations
 $cd catkin_ws/src
 
 $git clone the package you need from the internet  
