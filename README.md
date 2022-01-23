@@ -5,16 +5,15 @@
 
 All the packages we need during the project
 -------------------------------------------
-
-Getting Started
----------------
-
 - hector_slam
 - navigation
 - rplidar_ros
 - turtlebot3
 - turtlebot3_msgs
 - turtlebot3_simulations  
+
+Getting Started  
+---------------
 
 $cd catkin_ws/src
 
