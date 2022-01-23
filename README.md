@@ -27,8 +27,7 @@ Record Indoor Map with Rplidar
 ------------------------------
 $roscore  
 
-### launch new terminal  
-
+#[launch new terminal]
 
 $roslaunch rplidar_ros rplidar.launch  
 
