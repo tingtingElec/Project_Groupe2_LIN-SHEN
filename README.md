@@ -65,11 +65,13 @@ $password:980723
 
 On Remote PC Virtual Machine  
 ----------------------------
+(Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines)
+----------------------------------
 
 $ifconfig  
 
-IP address:172.20.10.3  
------------------------
+#IP address:172.20.10.3  
+
 $nano ~/.bashrc  
 
 $export ROS_MASTER_URI=http://172.20.10.3:11311  
