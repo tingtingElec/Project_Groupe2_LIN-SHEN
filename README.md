@@ -12,9 +12,6 @@ All the packages we need during the project
 - turtlebot3_msgs
 - turtlebot3_simulations  
 
-Getting Started  
----------------
-
 $cd catkin_ws/src
 
 $git clone the package you need from the internet  
@@ -27,16 +24,17 @@ Record Indoor Map with Rplidar
 ------------------------------
 $roscore  
 
-#[launch new terminal]
+launch new terminal and start the lidar  
+---------------------------------------
 
 $roslaunch rplidar_ros rplidar.launch  
 
-launch new terminal  
--------------------
+launch new terminal to scan the map 
+-----------------------------------
 $roslaunch hector_slam_launch tutorial.launch  
 
-launch new terminal  
--------------------
+launch new terminal to save the map 
+-----------------------------------
 
 $rosrun map_server map_saver -f  map_name  
 
