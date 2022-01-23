@@ -5,6 +5,10 @@
 
 All the packages we need during the project
 -------------------------------------------
+
+Getting Started
+---------------
+
 - hector_slam
 - navigation
 - rplidar_ros
