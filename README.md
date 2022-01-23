@@ -27,22 +27,20 @@ Record Indoor Map with Rplidar
 ------------------------------
 $roscore  
 
-#####launch new terminal
+#launch new terminal
 
 $roslaunch rplidar_ros rplidar.launch  
 
-launch new terminal  
--------------------
+#launch new terminal  
+
 $roslaunch hector_slam_launch tutorial.launch  
 
-launch new terminal  
--------------------
+#launch new terminal  
 
 $rosrun map_server map_saver -f  map_name  
 
 Turtlebot Simulation With Indoor map  
 ------------------------------------
-
 $ export TURTLEBOT3_MODEL=burger  
 
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch  
