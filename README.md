@@ -62,8 +62,7 @@ $password:980723
 
 On Remote PC Virtual Machine  
 ----------------------------
-(Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines)
-----------------------------------
+#Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines  
 
 $ifconfig  
 
