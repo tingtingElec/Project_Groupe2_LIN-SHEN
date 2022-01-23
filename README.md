@@ -51,9 +51,10 @@ $ export TURTLEBOT3_MODEL=burger
 
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml  
 
+# Burn the raspberry (ros kinetic version)image into a SD card and insert it into the Raspberry Board. 
 Remote Control TurtleBot3  
 -------------------------
-- Burn the raspberry (ros kinetic version)image into a SD card and insert it into the Raspberry Board.  
+ 
 $ssh pi@172.20.10.12  
 
 $password:980723  
