@@ -4,8 +4,8 @@
 Final project-Indoor real-time navigation for robot vehicles  
 ------------------------------------------------------------  
 
-###All the packages we need during the project
-
+All the packages we need during the project
+-------------------------------------------
 - hector_slam
 - navigation
 - rplidar_ros
