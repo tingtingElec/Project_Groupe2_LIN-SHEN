@@ -75,8 +75,8 @@ $export ROS_MASTER_URI=http://172.20.10.3:11311
 
 $export ROS_HOSTNAME=172.20.10.3  
 
-After changing,save and validate  
---------------------------------
+#After changing,save and validate  
+
 $source ~/.bashrc  
 
 On Raspberry  
@@ -87,8 +87,7 @@ $export ROS_MASTER_URI=http://172.20.10.3:11311
 
 $export ROS_HOSTNAME=172.20.10.12  
 
-After changing,save and validate  
---------------------------------
+#After changing,save and validate  
 $source ~/.bashrc  
 
 Remote Control on remote PC  
