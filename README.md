@@ -53,16 +53,14 @@ $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/m
 
 Remote Control TurtleBot3  
 -------------------------
-Burn the raspberry (ros kinetic version)image into a SD card and insert it into the Raspberry Board.  
----------------------------------------------------------------------------------------------------
+- Burn the raspberry (ros kinetic version)image into a SD card and insert it into the Raspberry Board.  
 $ssh pi@172.20.10.12  
 
 $password:980723  
 
 On Remote PC Virtual Machine  
 ----------------------------
-(Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines)  
--------------------------------------------------------------------------------------
+- (Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines)  
 $ifconfig  
 
 IP address:172.20.10.3  
@@ -93,16 +91,15 @@ Remote Control on remote PC
 ---------------------------
 $roscore  
 
-launch new terminal  
--------------------
+#launch new terminal  
 $ssh pi@172.20.10.12  
 
 $password:980723  
 
 $roslaunch turtlebot3_bringup turtlebot3_robot.launch  
 
-launch new terminal  
--------------------
+#launch new terminal  
+
 $export TURTLEBOT3_MODEL=burger  
 
 (For Teleoperation)  
