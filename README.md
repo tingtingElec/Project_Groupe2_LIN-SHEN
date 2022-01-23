@@ -60,9 +60,6 @@ $ssh pi@172.20.10.12
 
 $password:980723  
 
-(Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines)
-----------------------------------
-
 On Remote PC Virtual Machine  
 ----------------------------
 (Parallels Desktop Change Sharing mode to Bridge mode,not for other virtual machines)
