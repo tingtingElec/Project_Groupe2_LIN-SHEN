@@ -96,6 +96,7 @@ Remote Control on remote PC
 $roscore  
 
 #launch new terminal  
+
 $ssh pi@172.20.10.12  
 
 $password:980723  
@@ -106,10 +107,9 @@ $roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 $export TURTLEBOT3_MODEL=burger  
 
-(For Teleoperation)  
--------------------
+#For Teleoperation  
+
 $roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch  
 
-(For Navigation)  
-----------------
+#For Navigation 
 $roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml  
